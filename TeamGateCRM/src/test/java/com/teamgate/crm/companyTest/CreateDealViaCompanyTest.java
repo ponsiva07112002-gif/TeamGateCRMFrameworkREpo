@@ -32,9 +32,10 @@ public class CreateDealViaCompanyTest extends BaseClass {
 	 * 
 	 * @throws EncryptedDocumentException
 	 * @throws IOException
+	 * @throws InterruptedException 
 	 */
 	@Test(groups = "SystemTest")
-	public void createDealViaCompanyTest() throws EncryptedDocumentException, IOException {
+	public void createDealViaCompanyTest() throws EncryptedDocumentException, IOException, InterruptedException {
 		UtilityClassObject.getTest().log(Status.INFO, "Reading Data from Excel utility");
 		/* Reading Data From Excel utility */
 		ExcelUtility eutil = new ExcelUtility();
@@ -58,8 +59,10 @@ public class CreateDealViaCompanyTest extends BaseClass {
 		driver.findElement(By.xpath("//a[text()='" + companyName + "']")).click();
 		CompanyDetailsPage cdp = new CompanyDetailsPage(driver);
 		/* Creating New Deal */
+		Thread.sleep(3000);
 		cdp.getDealPlusIcon().click();
 		CreateNewDealPage cndp = new CreateNewDealPage(driver);
+		Thread.sleep(3000);
 		cndp.getNameOfDealTextField().sendKeys(DealName);
 		cndp.getSaveButton().click();
 		UtilityClassObject.getTest().log(Status.PASS, "New Deal is created successfully via company");

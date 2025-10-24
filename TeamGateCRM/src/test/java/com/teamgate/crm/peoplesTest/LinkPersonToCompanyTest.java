@@ -37,9 +37,10 @@ public class LinkPersonToCompanyTest extends BaseClass {
 	 * 
 	 * @throws EncryptedDocumentException
 	 * @throws IOException
+	 * @throws InterruptedException 
 	 */
 	@Test(groups = "SystemTest")
-	public void linkPersonToCompanyTest() throws EncryptedDocumentException, IOException {
+	public void linkPersonToCompanyTest() throws EncryptedDocumentException, IOException, InterruptedException {
 		UtilityClassObject.getTest().log(Status.INFO, "Reading Data from Excel utility");
 		/* Reading Data From Excel utility */
 		ExcelUtility eutil = new ExcelUtility();
@@ -76,7 +77,9 @@ public class LinkPersonToCompanyTest extends BaseClass {
 		action.scrollByAmount(0, 500);
 		// WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		// wait.until(ExpectedConditions.visibilityOf(pdp.getAssociatedContactsPlusIcon()));
+		Thread.sleep(3000);
 		pdp.getAssociatedContactsPlusIcon().click();
+		Thread.sleep(3000);
 		pdp.getAssociatedContactsTextField().sendKeys(companyName);
 		// driver.findElement(By.xpath("//div[@class='ui-menu-item-wrapper']")).click();
 		pdp.getCompany().click();

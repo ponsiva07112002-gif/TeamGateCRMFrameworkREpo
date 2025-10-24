@@ -42,21 +42,11 @@ public class BaseClass {
 	public static WebDriver sdriver = null;
 	
 	/**
-	 * This Configuration Annotation is used for Database Connection and Report Configuration
-	 * @throws Throwable
-	 */
-	@BeforeSuite(groups = { "SmokeTest", "RegressionTest" })
-	public void connectToDB() throws Throwable {
-		Reporter.log("====Connect To DB, Report Configuration====", true);
-		dbutil.getDBConnection("jdbc:mysql://49.249.28.218:3307/projects", "root@%", "root");
-	}
-
-	/**
 	 * This Configuration Annotation is used for Launching the Browser
 	 * @throws IOException
 	 */
 	@Parameters("BROWSER")
-	@BeforeClass(groups = { "SmokeTest", "RegressionTest" })
+	@BeforeClass(groups = { "SmokeTest", "IntegrationTest","SystemTest" })
 	public void openBrowser(@Optional("chrome")String Browser) throws IOException {
 		Reporter.log("====Open Browser====", true);
 		String BROWSER=System.getProperty("browser", Browser);
@@ -79,7 +69,7 @@ public class BaseClass {
 	 * This Configuration Annotation is used for Login to Application
 	 * @throws Throwable 
 	 */
-	@BeforeMethod(groups = { "SmokeTest", "RegressionTest" })
+	@BeforeMethod(groups = { "SmokeTest", "IntegrationTest","SystemTest" })
 	public void loginToApplication() throws Throwable {
 		
 		String URL = putil.getDataFromPropertiesFile("url");
@@ -93,7 +83,7 @@ public class BaseClass {
 	/**
 	 * This Configuration Annotation is used for Logout of Application
 	 */
-	@AfterMethod(groups = { "SmokeTest", "RegressionTest" })
+	@AfterMethod(groups = { "SmokeTest", "IntegrationTest","SystemTest" })
 	public void logout() {
 		Reporter.log("====Logout of Application====", true);
 		DealsPage dp = new DealsPage(driver);
@@ -103,18 +93,10 @@ public class BaseClass {
 	/**
 	 * This Configuration Annotation is used for Closing the Browser
 	 */
-	@AfterClass(groups = { "SmokeTest", "RegressionTest" })
+	@AfterClass(groups = { "SmokeTest", "IntegrationTest","SystemTest" })
 	public void closeBrowser() {
 		Reporter.log("====Close Browser====", true);
 		driver.quit();
 	}
 
-	/**
-	 * This Configuration Annotation is used for Closing the Database Connection and Report Backup
-	 */
-	@AfterSuite(groups = { "SmokeTest", "RegressionTest" })
-	public void closeDBConnection() {
-		Reporter.log("====Close DB Connection, Report Backup====", true);
-		dbutil.closeDBConnection();
-	}
 }

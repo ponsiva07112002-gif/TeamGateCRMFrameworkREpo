@@ -31,7 +31,7 @@ public class ExcelUtility {
 	public String getDataFromExcel(String sheetname, int rownum, int cellnum)
 			throws EncryptedDocumentException, IOException {
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\Ponsiva\\eclipse-workspace\\TeamGateCRM\\TestData\\TeamgateCRM_TestScriptData.xlsx");
+				"./TestData/TeamgateCRM_TestScriptData.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
 		String data = wb.getSheet(sheetname).getRow(rownum).getCell(cellnum).toString();
 		wb.close();

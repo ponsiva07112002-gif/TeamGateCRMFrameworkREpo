@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.teamgate.crm.companyTest.CreateDealViaCompanyTest">
+      <class name="com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest">
         <methods>
-          <include name="logout"/>
           <include name="closeBrowser"/>
-          <include name="connectToDB"/>
-          <include name="closeDBConnection"/>
+          <include name="logout"/>
           <include name="loginToApplication"/>
+          <include name="addMeetingViaOrganizerTest"/>
           <include name="openBrowser"/>
-          <include name="createDealViaCompanyTest"/>
         </methods>
-      </class> <!-- com.teamgate.crm.companyTest.CreateDealViaCompanyTest -->
+      </class> <!-- com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

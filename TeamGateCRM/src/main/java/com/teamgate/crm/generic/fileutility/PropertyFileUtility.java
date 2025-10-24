@@ -16,7 +16,7 @@ public class PropertyFileUtility {
 	 * @throws IOException
 	 */
 	public String getDataFromPropertiesFile(String key) throws IOException {
-		FileInputStream fis = new FileInputStream("C:\\Users\\Ponsiva\\eclipse-workspace\\TeamGateCRM\\TestData\\TeamgateCRM_commonData.properties");
+		FileInputStream fis = new FileInputStream("./TestData/TeamgateCRM_commonData.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
 		String data = prop.getProperty(key);

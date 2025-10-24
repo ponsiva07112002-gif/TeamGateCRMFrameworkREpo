@@ -60,13 +60,12 @@ public class AddMeetingViaOrganizerTest extends BaseClass {
 		dp.getOrganizerLink().click();
 		OrganizerPage op = new OrganizerPage(driver);
 		op.getNewLink().click();
-		op.getTitleTextfield().sendKeys(meetingTitle);
 		// op.getPlusIcon().click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click()", op.getPlusIcon());
 		op.getContactsTextField().sendKeys(companyName);
 		op.getCompany().click();
-		// op.getConfirmButton().click();
+		op.getTitleTextfield().sendKeys(meetingTitle);
 		op.getSaveButton().click();
 		op.getConfirmButton().click();
 		UtilityClassObject.getTest().log(Status.PASS, "Meeting is added in organizer successfully");

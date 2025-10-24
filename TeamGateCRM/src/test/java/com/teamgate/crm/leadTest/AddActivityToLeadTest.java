@@ -31,9 +31,10 @@ public class AddActivityToLeadTest extends BaseClass {
 	 * 
 	 * @throws EncryptedDocumentException
 	 * @throws IOException
+	 * @throws InterruptedException 
 	 */
 	@Test(groups = "IntegrationTest")
-	public void addActivityToLead() throws EncryptedDocumentException, IOException {
+	public void addActivityToLead() throws EncryptedDocumentException, IOException, InterruptedException {
 		UtilityClassObject.getTest().log(Status.INFO, "Reading Data from Excel utility");
 		/* Reading Data From Excel utility */
 		ExcelUtility eutil = new ExcelUtility();
@@ -68,6 +69,7 @@ public class AddActivityToLeadTest extends BaseClass {
 		String activityFeed = driver.findElement(By.xpath("//a[text()='" + leadName + "']/preceding-sibling::a[text()='" + subject + "']/ancestor::span")).getText();
 		boolean status = activityFeed.contains(leadName);
 		Assert.assertEquals(status, true);
+		Thread.sleep(3000);
 		UtilityClassObject.getTest().log(Status.PASS, "Activity is verified in Activity feed successfully");
 		Reporter.log("Activity is verified in Activity feed successfully", true);
 	}
