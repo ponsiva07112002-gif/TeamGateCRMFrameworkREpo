@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="4" failed="2" skipped="3">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[====Open Browser====]]>
     </line>
     <line>
-      <![CDATA[====Open Browser====]]>
-    </line>
-    <line>
-      <![CDATA[====Open Browser====]]>
-    </line>
-    <line>
-      <![CDATA[====Open Browser====]]>
-    </line>
-    <line>
-      <![CDATA[====Open Browser====]]>
-    </line>
-    <line>
       <![CDATA[Settings page is verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[====Logout of Application====]]>
+    </line>
+    <line>
+      <![CDATA[====Close Browser====]]>
+    </line>
+    <line>
+      <![CDATA[====Open Browser====]]>
+    </line>
+    <line>
+      <![CDATA[New Deal is verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[====Logout of Application====]]>
+    </line>
+    <line>
+      <![CDATA[====Close Browser====]]>
+    </line>
+    <line>
+      <![CDATA[====Open Browser====]]>
+    </line>
+    <line>
+      <![CDATA[Lead is verified successfully]]>
     </line>
     <line>
       <![CDATA[====Logout of Application====]]>
@@ -41,15 +53,6 @@
       <![CDATA[====Open Browser====]]>
     </line>
     <line>
-      <![CDATA[====Logout of Application====]]>
-    </line>
-    <line>
-      <![CDATA[====Close Browser====]]>
-    </line>
-    <line>
-      <![CDATA[====Open Browser====]]>
-    </line>
-    <line>
       <![CDATA[modification is verified successfully]]>
     </line>
     <line>
@@ -62,7 +65,16 @@
       <![CDATA[====Open Browser====]]>
     </line>
     <line>
-      <![CDATA[Lead is verified successfully]]>
+      <![CDATA[====Logout of Application====]]>
+    </line>
+    <line>
+      <![CDATA[====Close Browser====]]>
+    </line>
+    <line>
+      <![CDATA[====Open Browser====]]>
+    </line>
+    <line>
+      <![CDATA[Activity is verified in Activity feed successfully]]>
     </line>
     <line>
       <![CDATA[====Logout of Application====]]>
@@ -71,629 +83,55 @@
       <![CDATA[====Close Browser====]]>
     </line>
     <line>
+      <![CDATA[====Open Browser====]]>
+    </line>
+    <line>
+      <![CDATA[person linked to company is verified successfully]]>
+    </line>
+    <line>
       <![CDATA[====Logout of Application====]]>
     </line>
+    <line>
+      <![CDATA[====Close Browser====]]>
+    </line>
+    <line>
+      <![CDATA[====Open Browser====]]>
+    </line>
+    <line>
+      <![CDATA[Verified Insights module]]>
+    </line>
+    <line>
+      <![CDATA[====Logout of Application====]]>
+    </line>
+    <line>
+      <![CDATA[====Close Browser====]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-10-24T16:05:43 IST" name="Suite" finished-at="2025-10-24T16:09:52 IST" duration-ms="249386">
+  <suite started-at="2025-10-24T17:21:13 IST" name="Suite" finished-at="2025-10-24T17:29:11 IST" duration-ms="477548">
     <groups>
       <group name="SmokeTest">
-        <method signature="CreateNewLeadTest.createNewLeadTest()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@682b2fa]" name="createNewLeadTest" class="com.teamgate.crm.leadTest.CreateNewLeadTest"/>
-        <method signature="AccessSettingsTest.accessSettingsTest()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@dd05255]" name="accessSettingsTest" class="com.teamgate.crm.settingsTest.AccessSettingsTest"/>
-        <method signature="VerifyInsightsTest.verifyInsightsTest()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@38afe297]" name="verifyInsightsTest" class="com.teamgate.crm.lnsightsTest.VerifyInsightsTest"/>
+        <method signature="CreateNewLeadTest.createNewLeadTest()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@77c2494c]" name="createNewLeadTest" class="com.teamgate.crm.leadTest.CreateNewLeadTest"/>
+        <method signature="VerifyInsightsTest.verifyInsightsTest()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@185a6e9]" name="verifyInsightsTest" class="com.teamgate.crm.lnsightsTest.VerifyInsightsTest"/>
+        <method signature="AccessSettingsTest.accessSettingsTest()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@139982de]" name="accessSettingsTest" class="com.teamgate.crm.settingsTest.AccessSettingsTest"/>
       </group> <!-- SmokeTest -->
       <group name="SystemTest">
-        <method signature="CreateDealViaCompanyTest.createDealViaCompanyTest()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@247bddad]" name="createDealViaCompanyTest" class="com.teamgate.crm.companyTest.CreateDealViaCompanyTest"/>
-        <method signature="EditPersonDetailsTest.editPersonDetailsTest()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@d35dea7]" name="editPersonDetailsTest" class="com.teamgate.crm.peoplesTest.EditPersonDetailsTest"/>
-        <method signature="LinkPersonToCompanyTest.linkPersonToCompanyTest()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@55b0dcab]" name="linkPersonToCompanyTest" class="com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest"/>
+        <method signature="CreateDealViaCompanyTest.createDealViaCompanyTest()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@f5958c9]" name="createDealViaCompanyTest" class="com.teamgate.crm.companyTest.CreateDealViaCompanyTest"/>
+        <method signature="EditPersonDetailsTest.editPersonDetailsTest()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@233795b6]" name="editPersonDetailsTest" class="com.teamgate.crm.peoplesTest.EditPersonDetailsTest"/>
+        <method signature="LinkPersonToCompanyTest.linkPersonToCompanyTest()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@1e800aaa]" name="linkPersonToCompanyTest" class="com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest"/>
       </group> <!-- SystemTest -->
       <group name="IntegrationTest">
-        <method signature="ConvertLeadToDealTest.convertLeadToDealTest()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@139982de]" name="convertLeadToDealTest" class="com.teamgate.crm.leadTest.ConvertLeadToDealTest"/>
-        <method signature="AddMeetingViaOrganizerTest.addMeetingViaOrganizerTest()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@7770f470]" name="addMeetingViaOrganizerTest" class="com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest"/>
-        <method signature="AddActivityToLeadTest.addActivityToLead()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@131ef10]" name="addActivityToLead" class="com.teamgate.crm.leadTest.AddActivityToLeadTest"/>
+        <method signature="AddActivityToLeadTest.addActivityToLead()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@5bda8e08]" name="addActivityToLead" class="com.teamgate.crm.leadTest.AddActivityToLeadTest"/>
+        <method signature="ConvertLeadToDealTest.convertLeadToDealTest()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@477b4cdf]" name="convertLeadToDealTest" class="com.teamgate.crm.leadTest.ConvertLeadToDealTest"/>
+        <method signature="AddMeetingViaOrganizerTest.addMeetingViaOrganizerTest()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@3eb738bb]" name="addMeetingViaOrganizerTest" class="com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest"/>
       </group> <!-- IntegrationTest -->
     </groups>
-    <test started-at="2025-10-24T16:05:43 IST" name="Test3" finished-at="2025-10-24T16:05:46 IST" duration-ms="2956">
-      <class name="com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@55b0dcab]" started-at="2025-10-24T16:05:45 IST" name="openBrowser" finished-at="2025-10-24T16:05:45 IST" duration-ms="444" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.teamgate.crm.baseclass.BaseClass.openBrowser(BaseClass.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-            <line>
-              <![CDATA[====Open Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@55b0dcab]" started-at="2025-10-24T16:05:45 IST" name="loginToApplication" finished-at="2025-10-24T16:05:45 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="linkPersonToCompanyTest()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@55b0dcab]" started-at="2025-10-24T16:05:45 IST" name="linkPersonToCompanyTest" finished-at="2025-10-24T16:05:45 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.teamgate.crm.baseclass.BaseClass.openBrowser(BaseClass.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkPersonToCompanyTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@55b0dcab]" started-at="2025-10-24T16:05:45 IST" name="logout" finished-at="2025-10-24T16:05:45 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@55b0dcab]" started-at="2025-10-24T16:05:45 IST" name="closeBrowser" finished-at="2025-10-24T16:05:45 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest -->
-      <class name="com.teamgate.crm.lnsightsTest.VerifyInsightsTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@38afe297]" started-at="2025-10-24T16:05:45 IST" name="openBrowser" finished-at="2025-10-24T16:05:46 IST" duration-ms="447" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.teamgate.crm.baseclass.BaseClass.openBrowser(BaseClass.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-            <line>
-              <![CDATA[====Open Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@38afe297]" started-at="2025-10-24T16:05:46 IST" name="loginToApplication" finished-at="2025-10-24T16:05:46 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="verifyInsightsTest()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@38afe297]" started-at="2025-10-24T16:05:46 IST" name="verifyInsightsTest" finished-at="2025-10-24T16:05:46 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.teamgate.crm.baseclass.BaseClass.openBrowser(BaseClass.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInsightsTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@38afe297]" started-at="2025-10-24T16:05:46 IST" name="logout" finished-at="2025-10-24T16:05:46 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@38afe297]" started-at="2025-10-24T16:05:46 IST" name="closeBrowser" finished-at="2025-10-24T16:05:46 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.teamgate.crm.lnsightsTest.VerifyInsightsTest -->
-      <class name="com.teamgate.crm.leadTest.AddActivityToLeadTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@131ef10]" started-at="2025-10-24T16:05:43 IST" name="openBrowser" finished-at="2025-10-24T16:05:45 IST" duration-ms="1874" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.teamgate.crm.baseclass.BaseClass.openBrowser(BaseClass.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-            <line>
-              <![CDATA[====Open Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@131ef10]" started-at="2025-10-24T16:05:45 IST" name="loginToApplication" finished-at="2025-10-24T16:05:45 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="addActivityToLead()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@131ef10]" started-at="2025-10-24T16:05:45 IST" name="addActivityToLead" finished-at="2025-10-24T16:05:45 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.teamgate.crm.baseclass.BaseClass.openBrowser(BaseClass.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_141_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: driver.version: EdgeDriver
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addActivityToLead -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@131ef10]" started-at="2025-10-24T16:05:45 IST" name="logout" finished-at="2025-10-24T16:05:45 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@131ef10]" started-at="2025-10-24T16:05:45 IST" name="closeBrowser" finished-at="2025-10-24T16:05:45 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.teamgate.crm.leadTest.AddActivityToLeadTest -->
-    </test> <!-- Test3 -->
-    <test started-at="2025-10-24T16:05:43 IST" name="Test1" finished-at="2025-10-24T16:09:35 IST" duration-ms="231787">
-      <class name="com.teamgate.crm.leadTest.ConvertLeadToDealTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@139982de]" started-at="2025-10-24T16:07:01 IST" name="openBrowser" finished-at="2025-10-24T16:07:07 IST" duration-ms="6055" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[====Open Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@139982de]" started-at="2025-10-24T16:07:07 IST" name="loginToApplication" finished-at="2025-10-24T16:07:47 IST" duration-ms="40124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="convertLeadToDealTest()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@139982de]" started-at="2025-10-24T16:07:47 IST" name="convertLeadToDealTest" finished-at="2025-10-24T16:08:24 IST" duration-ms="37147" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Convert']"}
-  (Session info: chrome=141.0.7390.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd250cbf2501a971ecba643e74c5c460, findElement {using=xpath, value=//button[text()='Convert']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.109, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58641/devtoo..., se:cdpVersion: 141.0.7390.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bd250cbf2501a971ecba643e74c5c460]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Convert']"}
-  (Session info: chrome=141.0.7390.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd250cbf2501a971ecba643e74c5c460, findElement {using=xpath, value=//button[text()='Convert']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.109, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58641/devtoo..., se:cdpVersion: 141.0.7390.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bd250cbf2501a971ecba643e74c5c460
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-at com.teamgate.crm.leadTest.ConvertLeadToDealTest.convertLeadToDealTest(ConvertLeadToDealTest.java:61)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- convertLeadToDealTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@139982de]" started-at="2025-10-24T16:08:28 IST" name="logout" finished-at="2025-10-24T16:08:30 IST" duration-ms="2077" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[====Logout of Application====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@139982de]" started-at="2025-10-24T16:08:30 IST" name="closeBrowser" finished-at="2025-10-24T16:08:30 IST" duration-ms="733" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[====Close Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.teamgate.crm.leadTest.ConvertLeadToDealTest -->
-      <class name="com.teamgate.crm.settingsTest.AccessSettingsTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@dd05255]" started-at="2025-10-24T16:05:43 IST" name="openBrowser" finished-at="2025-10-24T16:05:59 IST" duration-ms="16252" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[====Open Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@dd05255]" started-at="2025-10-24T16:05:59 IST" name="loginToApplication" finished-at="2025-10-24T16:06:46 IST" duration-ms="46691" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="accessSettingsTest()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@dd05255]" started-at="2025-10-24T16:06:46 IST" name="accessSettingsTest" finished-at="2025-10-24T16:06:52 IST" duration-ms="5740" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Settings page is verified successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- accessSettingsTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@dd05255]" started-at="2025-10-24T16:06:52 IST" name="logout" finished-at="2025-10-24T16:06:55 IST" duration-ms="3773" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[====Logout of Application====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@dd05255]" started-at="2025-10-24T16:06:55 IST" name="closeBrowser" finished-at="2025-10-24T16:07:01 IST" duration-ms="5120" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[====Close Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.teamgate.crm.settingsTest.AccessSettingsTest -->
-      <class name="com.teamgate.crm.leadTest.CreateNewLeadTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@682b2fa]" started-at="2025-10-24T16:08:30 IST" name="openBrowser" finished-at="2025-10-24T16:08:37 IST" duration-ms="6387" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[====Open Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@682b2fa]" started-at="2025-10-24T16:08:37 IST" name="loginToApplication" finished-at="2025-10-24T16:09:17 IST" duration-ms="40395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="createNewLeadTest()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@682b2fa]" started-at="2025-10-24T16:09:17 IST" name="createNewLeadTest" finished-at="2025-10-24T16:09:31 IST" duration-ms="14293" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Lead is verified successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createNewLeadTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@682b2fa]" started-at="2025-10-24T16:09:31 IST" name="logout" finished-at="2025-10-24T16:09:34 IST" duration-ms="2377" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[====Logout of Application====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@682b2fa]" started-at="2025-10-24T16:09:34 IST" name="closeBrowser" finished-at="2025-10-24T16:09:35 IST" duration-ms="915" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[====Close Browser====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.teamgate.crm.leadTest.CreateNewLeadTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2025-10-24T16:05:43 IST" name="Test2" finished-at="2025-10-24T16:09:52 IST" duration-ms="249386">
+    <test started-at="2025-10-24T17:21:13 IST" name="Test" finished-at="2025-10-24T17:29:11 IST" duration-ms="477548">
       <class name="com.teamgate.crm.peoplesTest.EditPersonDetailsTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@d35dea7]" started-at="2025-10-24T16:08:05 IST" name="openBrowser" finished-at="2025-10-24T16:08:13 IST" duration-ms="8018" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@233795b6]" started-at="2025-10-24T17:25:03 IST" name="openBrowser" finished-at="2025-10-24T17:25:05 IST" duration-ms="2739" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
@@ -703,25 +141,25 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@d35dea7]" started-at="2025-10-24T16:08:13 IST" name="loginToApplication" finished-at="2025-10-24T16:08:45 IST" duration-ms="31613" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@233795b6]" started-at="2025-10-24T17:25:05 IST" name="loginToApplication" finished-at="2025-10-24T17:25:44 IST" duration-ms="38815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="editPersonDetailsTest()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@d35dea7]" started-at="2025-10-24T16:08:45 IST" name="editPersonDetailsTest" finished-at="2025-10-24T16:09:04 IST" duration-ms="19148" status="PASS">
+        <test-method signature="editPersonDetailsTest()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@233795b6]" started-at="2025-10-24T17:25:44 IST" name="editPersonDetailsTest" finished-at="2025-10-24T17:26:14 IST" duration-ms="29898" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[modification is verified successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- editPersonDetailsTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@d35dea7]" started-at="2025-10-24T16:09:04 IST" name="logout" finished-at="2025-10-24T16:09:06 IST" duration-ms="1869" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@233795b6]" started-at="2025-10-24T17:26:14 IST" name="logout" finished-at="2025-10-24T17:26:17 IST" duration-ms="3134" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Logout of Application====]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@d35dea7]" started-at="2025-10-24T16:09:06 IST" name="closeBrowser" finished-at="2025-10-24T16:09:11 IST" duration-ms="4727" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.peoplesTest.EditPersonDetailsTest@233795b6]" started-at="2025-10-24T17:26:17 IST" name="closeBrowser" finished-at="2025-10-24T17:26:18 IST" duration-ms="639" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Close Browser====]]>
@@ -729,12 +167,12 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.teamgate.crm.peoplesTest.EditPersonDetailsTest -->
-      <class name="com.teamgate.crm.companyTest.CreateDealViaCompanyTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@247bddad]" started-at="2025-10-24T16:05:43 IST" name="openBrowser" finished-at="2025-10-24T16:06:44 IST" duration-ms="61267" status="PASS">
+      <class name="com.teamgate.crm.leadTest.ConvertLeadToDealTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@477b4cdf]" started-at="2025-10-24T17:22:34 IST" name="openBrowser" finished-at="2025-10-24T17:22:37 IST" duration-ms="3146" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
@@ -744,25 +182,66 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@247bddad]" started-at="2025-10-24T16:06:44 IST" name="loginToApplication" finished-at="2025-10-24T16:07:21 IST" duration-ms="36960" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@477b4cdf]" started-at="2025-10-24T17:22:37 IST" name="loginToApplication" finished-at="2025-10-24T17:22:57 IST" duration-ms="20625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="createDealViaCompanyTest()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@247bddad]" started-at="2025-10-24T16:07:21 IST" name="createDealViaCompanyTest" finished-at="2025-10-24T16:07:58 IST" duration-ms="37036" status="PASS">
+        <test-method signature="convertLeadToDealTest()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@477b4cdf]" started-at="2025-10-24T17:22:57 IST" name="convertLeadToDealTest" finished-at="2025-10-24T17:23:17 IST" duration-ms="19043" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Deal is verified successfully]]>
+              <![CDATA[New Deal is verified successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createDealViaCompanyTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@247bddad]" started-at="2025-10-24T16:07:58 IST" name="logout" finished-at="2025-10-24T16:08:00 IST" duration-ms="2026" status="PASS">
+        </test-method> <!-- convertLeadToDealTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@477b4cdf]" started-at="2025-10-24T17:23:17 IST" name="logout" finished-at="2025-10-24T17:23:20 IST" duration-ms="3536" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Logout of Application====]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@247bddad]" started-at="2025-10-24T16:08:00 IST" name="closeBrowser" finished-at="2025-10-24T16:08:05 IST" duration-ms="5058" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.leadTest.ConvertLeadToDealTest@477b4cdf]" started-at="2025-10-24T17:23:20 IST" name="closeBrowser" finished-at="2025-10-24T17:23:21 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Close Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.teamgate.crm.leadTest.ConvertLeadToDealTest -->
+      <class name="com.teamgate.crm.companyTest.CreateDealViaCompanyTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@f5958c9]" started-at="2025-10-24T17:23:58 IST" name="openBrowser" finished-at="2025-10-24T17:24:01 IST" duration-ms="2904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Open Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@f5958c9]" started-at="2025-10-24T17:24:01 IST" name="loginToApplication" finished-at="2025-10-24T17:24:21 IST" duration-ms="20440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createDealViaCompanyTest()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@f5958c9]" started-at="2025-10-24T17:24:21 IST" name="createDealViaCompanyTest" finished-at="2025-10-24T17:24:58 IST" duration-ms="37271" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Deal is verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDealViaCompanyTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@f5958c9]" started-at="2025-10-24T17:24:58 IST" name="logout" finished-at="2025-10-24T17:25:02 IST" duration-ms="3575" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Logout of Application====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.companyTest.CreateDealViaCompanyTest@f5958c9]" started-at="2025-10-24T17:25:02 IST" name="closeBrowser" finished-at="2025-10-24T17:25:03 IST" duration-ms="580" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Close Browser====]]>
@@ -770,12 +249,12 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.teamgate.crm.companyTest.CreateDealViaCompanyTest -->
-      <class name="com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@7770f470]" started-at="2025-10-24T16:09:11 IST" name="openBrowser" finished-at="2025-10-24T16:09:20 IST" duration-ms="9684" status="PASS">
+      <class name="com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@1e800aaa]" started-at="2025-10-24T17:27:48 IST" name="openBrowser" finished-at="2025-10-24T17:27:51 IST" duration-ms="3113" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
@@ -785,95 +264,115 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@7770f470]" started-at="2025-10-24T16:09:20 IST" name="loginToApplication" finished-at="2025-10-24T16:09:41 IST" duration-ms="20580" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@1e800aaa]" started-at="2025-10-24T17:27:51 IST" name="loginToApplication" finished-at="2025-10-24T17:28:07 IST" duration-ms="16457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="addMeetingViaOrganizerTest()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@7770f470]" started-at="2025-10-24T16:09:41 IST" name="addMeetingViaOrganizerTest" finished-at="2025-10-24T16:09:52 IST" duration-ms="10915" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[Element <input class="ui-autocomplete-input" name="search-contacts"> is not reachable by keyboard
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7962b9c6-20f5-4d16-9d89-864cf1cf1a38, sendKeysToElement {id=e7f03c83-55e5-467b-b9e7-fca23f3c6744, value=[Ljava.lang.CharSequence;@4af810f6}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19072, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (7962b9c6-20f5-4d16-9d89-864cf1cf1a38)] -> name: search-contacts]
-Session ID: 7962b9c6-20f5-4d16-9d89-864cf1cf1a38]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input class="ui-autocomplete-input" name="search-contacts"> is not reachable by keyboard
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7962b9c6-20f5-4d16-9d89-864cf1cf1a38, sendKeysToElement {id=e7f03c83-55e5-467b-b9e7-fca23f3c6744, value=[Ljava.lang.CharSequence;@4af810f6}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19072, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (7962b9c6-20f5-4d16-9d89-864cf1cf1a38)] -> name: search-contacts]
-Session ID: 7962b9c6-20f5-4d16-9d89-864cf1cf1a38
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)
-at com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest.addMeetingViaOrganizerTest(AddMeetingViaOrganizerTest.java:66)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="linkPersonToCompanyTest()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@1e800aaa]" started-at="2025-10-24T17:28:07 IST" name="linkPersonToCompanyTest" finished-at="2025-10-24T17:28:40 IST" duration-ms="32916" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[person linked to company is verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- linkPersonToCompanyTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@1e800aaa]" started-at="2025-10-24T17:28:40 IST" name="logout" finished-at="2025-10-24T17:28:43 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Logout of Application====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest@1e800aaa]" started-at="2025-10-24T17:28:43 IST" name="closeBrowser" finished-at="2025-10-24T17:28:43 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Close Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.teamgate.crm.peoplesTest.LinkPersonToCompanyTest -->
+      <class name="com.teamgate.crm.settingsTest.AccessSettingsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@139982de]" started-at="2025-10-24T17:21:13 IST" name="openBrowser" finished-at="2025-10-24T17:21:17 IST" duration-ms="4206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Open Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@139982de]" started-at="2025-10-24T17:21:18 IST" name="loginToApplication" finished-at="2025-10-24T17:22:26 IST" duration-ms="68934" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addMeetingViaOrganizerTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@7770f470]" started-at="2025-10-24T16:09:52 IST" name="logout" finished-at="2025-10-24T16:09:52 IST" duration-ms="174" status="FAIL">
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="accessSettingsTest()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@139982de]" started-at="2025-10-24T17:22:26 IST" name="accessSettingsTest" finished-at="2025-10-24T17:22:30 IST" duration-ms="3647" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Settings page is verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessSettingsTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@139982de]" started-at="2025-10-24T17:22:30 IST" name="logout" finished-at="2025-10-24T17:22:33 IST" duration-ms="2969" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Logout of Application====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.settingsTest.AccessSettingsTest@139982de]" started-at="2025-10-24T17:22:33 IST" name="closeBrowser" finished-at="2025-10-24T17:22:34 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Close Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.teamgate.crm.settingsTest.AccessSettingsTest -->
+      <class name="com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@3eb738bb]" started-at="2025-10-24T17:26:18 IST" name="openBrowser" finished-at="2025-10-24T17:26:20 IST" duration-ms="2600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Open Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@3eb738bb]" started-at="2025-10-24T17:26:20 IST" name="loginToApplication" finished-at="2025-10-24T17:26:37 IST" duration-ms="17151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addMeetingViaOrganizerTest()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@3eb738bb]" started-at="2025-10-24T17:26:37 IST" name="addMeetingViaOrganizerTest" finished-at="2025-10-24T17:26:55 IST" duration-ms="17221" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[Element <img class="rounded-circle" src="https://tg-assets-us1.s3.us-east-2.amazonaws.com/google/images/users/3/small.jpg?timestamp=1760359322"> is not clickable at point (1248,27) because another element <div class="modal-backdrop fade in"> obscures it
+              <![CDATA[element click intercepted: Element <a data-v-7e129e9c="" href="/google/companies" class="nav-link d-md-block d-inline-flex">...</a> is not clickable at point (267, 27). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=141.0.7390.109)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7962b9c6-20f5-4d16-9d89-864cf1cf1a38, clickElement {id=0bc4dc6d-c1e4-405e-aed9-de074f50babf}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19072, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (7962b9c6-20f5-4d16-9d89-864cf1cf1a38)] -> xpath: //img[@class='rounded-circle']]
-Session ID: 7962b9c6-20f5-4d16-9d89-864cf1cf1a38]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b628a0546d28a82eea2fa5ae9a4fadfe, clickElement {id=f.9A3B1E8B436E662375B01A067D2E1AB0.d.FC7E85431C67E3B12223F4DDC81957E3.e.456}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.109, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64415/devtoo..., se:cdpVersion: 141.0.7390.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b628a0546d28a82eea2fa5ae9a4fadfe)] -> xpath: //a[@href='/google/companies']]
+Session ID: b628a0546d28a82eea2fa5ae9a4fadfe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <img class="rounded-circle" src="https://tg-assets-us1.s3.us-east-2.amazonaws.com/google/images/users/3/small.jpg?timestamp=1760359322"> is not clickable at point (1248,27) because another element <div class="modal-backdrop fade in"> obscures it
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-7e129e9c="" href="/google/companies" class="nav-link d-md-block d-inline-flex">...</a> is not clickable at point (267, 27). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=141.0.7390.109)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7962b9c6-20f5-4d16-9d89-864cf1cf1a38, clickElement {id=0bc4dc6d-c1e4-405e-aed9-de074f50babf}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19072, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (7962b9c6-20f5-4d16-9d89-864cf1cf1a38)] -> xpath: //img[@class='rounded-circle']]
-Session ID: 7962b9c6-20f5-4d16-9d89-864cf1cf1a38
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b628a0546d28a82eea2fa5ae9a4fadfe, clickElement {id=f.9A3B1E8B436E662375B01A067D2E1AB0.d.FC7E85431C67E3B12223F4DDC81957E3.e.456}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.109, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64415/devtoo..., se:cdpVersion: 141.0.7390.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b628a0546d28a82eea2fa5ae9a4fadfe)] -> xpath: //a[@href='/google/companies']]
+Session ID: b628a0546d28a82eea2fa5ae9a4fadfe
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -890,17 +389,11 @@ at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethod
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-at com.teamgate.crm.objectRepository.DealsPage.toLogout(DealsPage.java:84)
-at com.teamgate.crm.baseclass.BaseClass.logout(BaseClass.java:90)
+at com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest.addMeetingViaOrganizerTest(AddMeetingViaOrganizerTest.java:74)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
@@ -911,26 +404,162 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:848)
 at org.testng.TestRunner.run(TestRunner.java:621)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMeetingViaOrganizerTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@3eb738bb]" started-at="2025-10-24T17:26:55 IST" name="logout" finished-at="2025-10-24T17:26:58 IST" duration-ms="2673" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Logout of Application====]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@7770f470]" started-at="2025-10-24T16:09:52 IST" name="closeBrowser" finished-at="2025-10-24T16:09:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest@3eb738bb]" started-at="2025-10-24T17:26:58 IST" name="closeBrowser" finished-at="2025-10-24T17:26:58 IST" duration-ms="397" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[====Close Browser====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.teamgate.crm.organizerTest.AddMeetingViaOrganizerTest -->
-    </test> <!-- Test2 -->
+      <class name="com.teamgate.crm.leadTest.CreateNewLeadTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@77c2494c]" started-at="2025-10-24T17:23:21 IST" name="openBrowser" finished-at="2025-10-24T17:23:23 IST" duration-ms="2743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Open Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@77c2494c]" started-at="2025-10-24T17:23:23 IST" name="loginToApplication" finished-at="2025-10-24T17:23:43 IST" duration-ms="19553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createNewLeadTest()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@77c2494c]" started-at="2025-10-24T17:23:43 IST" name="createNewLeadTest" finished-at="2025-10-24T17:23:54 IST" duration-ms="10904" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lead is verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewLeadTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@77c2494c]" started-at="2025-10-24T17:23:54 IST" name="logout" finished-at="2025-10-24T17:23:57 IST" duration-ms="3553" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Logout of Application====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.leadTest.CreateNewLeadTest@77c2494c]" started-at="2025-10-24T17:23:57 IST" name="closeBrowser" finished-at="2025-10-24T17:23:58 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Close Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.teamgate.crm.leadTest.CreateNewLeadTest -->
+      <class name="com.teamgate.crm.lnsightsTest.VerifyInsightsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@185a6e9]" started-at="2025-10-24T17:28:43 IST" name="openBrowser" finished-at="2025-10-24T17:28:46 IST" duration-ms="3187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Open Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@185a6e9]" started-at="2025-10-24T17:28:46 IST" name="loginToApplication" finished-at="2025-10-24T17:29:02 IST" duration-ms="15808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyInsightsTest()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@185a6e9]" started-at="2025-10-24T17:29:02 IST" name="verifyInsightsTest" finished-at="2025-10-24T17:29:07 IST" duration-ms="4937" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified Insights module]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInsightsTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@185a6e9]" started-at="2025-10-24T17:29:07 IST" name="logout" finished-at="2025-10-24T17:29:10 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Logout of Application====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.lnsightsTest.VerifyInsightsTest@185a6e9]" started-at="2025-10-24T17:29:10 IST" name="closeBrowser" finished-at="2025-10-24T17:29:11 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Close Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.teamgate.crm.lnsightsTest.VerifyInsightsTest -->
+      <class name="com.teamgate.crm.leadTest.AddActivityToLeadTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@5bda8e08]" started-at="2025-10-24T17:26:58 IST" name="openBrowser" finished-at="2025-10-24T17:27:01 IST" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Open Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@5bda8e08]" started-at="2025-10-24T17:27:01 IST" name="loginToApplication" finished-at="2025-10-24T17:27:18 IST" duration-ms="17058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addActivityToLead()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@5bda8e08]" started-at="2025-10-24T17:27:18 IST" name="addActivityToLead" finished-at="2025-10-24T17:27:44 IST" duration-ms="26212" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Activity is verified in Activity feed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addActivityToLead -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@5bda8e08]" started-at="2025-10-24T17:27:44 IST" name="logout" finished-at="2025-10-24T17:27:47 IST" duration-ms="2783" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Logout of Application====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.teamgate.crm.leadTest.AddActivityToLeadTest@5bda8e08]" started-at="2025-10-24T17:27:47 IST" name="closeBrowser" finished-at="2025-10-24T17:27:48 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Close Browser====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.teamgate.crm.leadTest.AddActivityToLeadTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
